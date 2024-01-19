@@ -1,3 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define br "\n"
+typedef long long ll;
+#define pb push_back
+#define pii pair<int, int>
+#define pll pair<long long, long long>
+#define forn(i, n) for(int i = 0; i < n; i++)
+
 
 // Memoization
 // TIME -> O(N)

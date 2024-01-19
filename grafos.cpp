@@ -143,6 +143,11 @@ void dfs(int u, int colour[], vector<int> adj[]){
         }
     }
 } 
+int cont = 0;
+for(int u = 1; u <= n; u ++)
+{
+    for(int v : adj[u])if(colour[u] == colour[v]) cont++;
+}
 
 // Dijkstra
 void dijkstra(vector<pii>adj[], int n, int origin){
